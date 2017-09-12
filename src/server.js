@@ -9,6 +9,15 @@ const onRequest = (request, response) => {
     case '/' :
       htmlHandler.getIndex(request, response);
       break;
+    case 'client':
+      mediaHandler.getParty(request, response);
+      break;
+    case 'client2':
+      mediaHandler.getBling(request, response);
+      break;
+    case 'client3':
+      mediaHandler.getBird(request, response);
+      break;
     case '/party.mp4':
       mediaHandler.getParty(request, response);
       break;
