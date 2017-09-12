@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment-james-sasson",
+  "version": "1.0.0",
+  "description": "Streaming media assignment for class",
+  "main": "./src/index.js",
+  "scripts": {
+      "start": "node ./src/server.js",
+      "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SassonJames/streaming-media-assignment.git"
+  },
+  "author": "Jamie Sasson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SassonJames/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/SassonJames/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
